@@ -5,6 +5,7 @@ info:
   description: API First is a simple API that allows you to create, read, update and delete users.
 servers:
   - url: http://localhost:3000
+    description: Version 1 de la API  
 
 paths:
   /hello:
@@ -12,11 +13,11 @@ paths:
       summary: hello world
       responses:
         '200':
-          description: A success response
+          description: OK
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/HelloResponse'
+                $ref: '#/components/schemas/HelloResponse'              
   
   /users:
     post:
@@ -208,6 +209,13 @@ paths:
           description: Producto eliminado exitosamente
         '404':
           description: Producto no encontrado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
 
 components:
   schemas:

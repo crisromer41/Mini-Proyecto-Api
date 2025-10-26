@@ -38,6 +38,7 @@ Las pruebas están escritas con Jest y Supertest.
 APIFIRST/
 ├── src/
 │   ├── app.js          # Lógica principal de la API
+|   ├── index.js        # Punto de entrada del servidor
 │   ├── server.js       # Inicio del servidor
 ├── test.js             # Pruebas automatizadas
 ├── openapi.yaml        # Especificación OpenAPI

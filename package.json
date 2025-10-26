@@ -14,7 +14,9 @@
   "dependencies": {
     "express": "^5.1.0",
     "express-openapi-validator": "^5.6.0",
+    "fs": "^0.0.1-security",
     "swagger-ui-express": "^5.0.1",
+    "yaml": "^2.8.1",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {

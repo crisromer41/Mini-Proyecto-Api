@@ -44,6 +44,7 @@ APIFIRST/
 ├── openapi.yaml        # Especificación OpenAPI
 ├── package.json
 └── README.md
+└── Arquitectura.md
 ```
 
 ## 📌 Endpoints principales
